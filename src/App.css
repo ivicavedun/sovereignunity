@@ -1,0 +1,42 @@
+.above-fold,
+.below-fold {
+    height: 100vh;
+}
+
+.above-fold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.above-fold h1 {
+    text-align: center;
+    font-size: 16rem;
+}
+
+.below-fold {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+}
+
+.below-fold-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+}
